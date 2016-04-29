@@ -5,9 +5,24 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_character</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font_comic_orta</font>
+    <font>fonts\font_arial_orta</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\ob_character</object>
+    <object>objects\ob_timer</object>
+    <object>objects\ob_time_eq</object>
+    <object>objects\ob_draw_health</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
